@@ -6,4 +6,5 @@ int main() {
 
    strcpy(str_a, "Hello World!\n");
    printf(str_a);
+   return 0;
 }
