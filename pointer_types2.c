@@ -17,8 +17,9 @@ int main() {
             int_pointer, *int_pointer);
 		int_pointer = int_pointer + 1;
 	}
-	
-	for(i=0; i < 5; i++) { // iterate through the char array with the char_pointer
+
+  # iterating bytewise over integer array with a char pointer
+	for(i=0; i < 20; i++) { // iterate through the char array with the char_pointer
 		printf("[char pointer] points to %p, which contains the integer %d\n",
             char_pointer, *char_pointer);
 		char_pointer = char_pointer + 1;

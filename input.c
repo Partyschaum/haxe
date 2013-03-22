@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-   char message[10];
+   char message[15];
    int count, i;
 
    strcpy(message, "Hello, world!");
