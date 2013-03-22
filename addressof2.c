@@ -6,7 +6,7 @@ int main() {
 
    int_ptr = &int_var; // put the address of int_var into int_ptr
 
-   printf("int_ptr = 0x%08x\n", int_ptr);
+   printf(" int_ptr = 0x%08x\n", int_ptr);
    printf("&int_ptr = 0x%08x\n", &int_ptr);
    printf("*int_ptr = 0x%08x\n\n", *int_ptr);
 
